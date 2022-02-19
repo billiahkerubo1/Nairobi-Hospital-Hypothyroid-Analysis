@@ -4,7 +4,7 @@ This is an analysis on whether or not the patient's symptoms indicate that the p
 
 After exploring data, the classification of the data is carried out. In this case, the algorithms used for classification are random forests, adaboosted trees and gradient boosted trees. The metrics of success used are confusion matrix, RMSE and accuracy score. Other procedures that aided the process are cross-validation and hyperparameter tuning. The accuracy scores obtained were above 80% for every algorithm, making them both good for classification.
 
-However, I would prefer using the gradient boosting algorithm because its accuracy is flexible with the number of estimators. The more the number of estimators, the higher the accuracy!
+However, I would prefer using the gradient boosting algorithm because its accuracy is flexible with the number of estimators. The more the number of estimators, the higher the accuracy! While using the SVM, I would use the rbf algorithm because of the transformations on the C and gamma hyperparameters to improve accuuracy of the model.
 
 
 PROJECT INSTALLATION Data analysis was conducted on Google Colab using pandas and numpy libraries.
